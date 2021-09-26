@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/taxbrain-feedstock/blob/master/LICENSE.txt)
 
-Summary: Simple, fast, extensible JSON encoder/decoder for Python
+Summary: A Python package that integrates tax models under a single, simple interface
 
 Development: https://github.com/PSLmodels/Tax-Brain
 
@@ -42,6 +42,7 @@ Installing `taxbrain` from the `conda-forge` channel can be achieved by adding `
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `taxbrain` can be installed with:
