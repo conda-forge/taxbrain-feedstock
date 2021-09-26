@@ -1,5 +1,5 @@
 {% set name = "taxbrain" %}
-{% set version = "2.5.0" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PSLmodels/Tax-Brain/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 34e0e98390ec7616df13e7c6d885a7e4213f3fa36295477bbb7155781800bdbc
+  sha256: 4b754011ece47c6af2b7ea293b26383b455b296e4749a637a650bc4a1f8943f3
 
 build:
   noarch: python
@@ -41,7 +41,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
-  summary: 'Simple, fast, extensible JSON encoder/decoder for Python'
+  summary: 'A Python package that integrates tax models under a single, simple interface'
   description: Tax-Brain is an integrator model for PSL tax models
   doc_url: http://taxbrain.pslmodels.org/content/intro.html
   dev_url: https://github.com/PSLmodels/Tax-Brain
