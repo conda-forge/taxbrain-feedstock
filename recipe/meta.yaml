@@ -1,5 +1,5 @@
 {% set name = "taxbrain" %}
-{% set version = "2.6.0" %}
+{% set version = "2.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PSLmodels/Tax-Brain/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 4b754011ece47c6af2b7ea293b26383b455b296e4749a637a650bc4a1f8943f3
+  sha256: 79d78cdf7a26afdd6d3183f5850d4455531cea3a98d5ced1c07c4ea69ff828f5
 
 build:
   noarch: python
